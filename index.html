@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/fuzzycomplete.min.css">
+    <title>Autocompletado en HTML </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="my-5 text-center">Autocompletado con FuzzyComplete</h1>
+        <form action="" class="col-md-6 offset-3">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">
+                        Pais
+                    </span>
+                </div>
+                <input id="country" class="form-control" placeholder="Pais" autocomplete="off" required>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">
+                        Estado
+                    </span>
+                </div>
+                <input id="state" class="form-control" placeholder="Estado" autocomplete="off" required>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="./public/js/jquery.min.js"></script>
+    <script src="./public/js/fuse.min.js"></script>
+    <script src="./public/js/fuzzycomplete.min.js"></script>
+    <script src="./public/js/app.js"></script>
+</body>
+
+</html>
